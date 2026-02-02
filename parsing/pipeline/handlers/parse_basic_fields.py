@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from parsing.pipeline.context import PipelineContext
-from parsing.pipeline.handlers.base import Handler
-from parsing.pipeline.utils import (
+from pipeline.context import PipelineContext
+from pipeline.handlers.base import Handler
+from pipeline.utils import (
     parse_gender_age,
     parse_experience_months,
     parse_has_car,

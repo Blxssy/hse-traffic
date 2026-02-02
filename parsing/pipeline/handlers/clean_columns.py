@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from parsing.pipeline.context import PipelineContext
-from parsing.pipeline.handlers.base import Handler
+from pipeline.context import PipelineContext
+from pipeline.handlers.base import Handler
 
 
 class CleanColumnsHandler(Handler):

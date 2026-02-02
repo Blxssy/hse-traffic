@@ -4,8 +4,8 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from parsing.pipeline.pipeline import build_pipeline
-from parsing.pipeline.context import PipelineContext
+from pipeline.pipeline import build_pipeline
+from pipeline.context import PipelineContext
 
 
 def main() -> int:

@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import numpy as np
 
-from parsing.pipeline.context import PipelineContext
-from parsing.pipeline.handlers.base import Handler
+from pipeline.context import PipelineContext
+from pipeline.handlers.base import Handler
 
 
 class SaveNpyHandler(Handler):

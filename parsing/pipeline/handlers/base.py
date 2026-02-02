@@ -3,7 +3,7 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import Optional
 
-from parsing.pipeline.context import PipelineContext
+from pipeline.context import PipelineContext
 
 
 class Handler(ABC):

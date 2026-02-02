@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from parsing.pipeline.context import PipelineContext
-from parsing.pipeline.handlers.base import Handler
-from parsing.pipeline.utils import parse_salary_rub
+from pipeline.context import PipelineContext
+from pipeline.handlers.base import Handler
+from pipeline.utils import parse_salary_rub
 
 
 class ParseTargetSalaryHandler(Handler):
